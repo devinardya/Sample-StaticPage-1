@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,600&display=swap');
 
 h1, h2, h3, h4, h5, li{
     font-family: 'Raleway', sans-serif;
@@ -125,7 +125,7 @@ content{
     width: 72%;
     height: 100%;
     display:flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     box-sizing: border-box;
 }
 
@@ -171,6 +171,18 @@ content{
     padding: 15px 60px 0 40px;
     font-size: 14px;
     line-height: 18px;
+}
+
+.box.bottom p{
+    padding: 23px 60px 0 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #83c8d4;
+}
+
+.box.bottom p:hover{
+    color: #469c9c;
+    cursor: pointer;
 }
 
 
